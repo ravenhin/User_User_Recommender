@@ -10,7 +10,7 @@ What is a recommender? A recommender is an algorithm that can take data based on
 When it comes to exploring the data, first I always check to see how much of the data is missing. This is usually the first step because I can’t start exploring the data in other ways until I know how much of it exists.
 Once I did this, I created scatterplots to see where some of the outliers are, and of course came to find that people are not the best at always getting their own information correct. There were some ages that were way over 100, which I expect most of them were typos.
 
-('scatterplot.png')
+![Scatterplot](scatterplot.png)
 
 Then I decided to create different kinds of visualization in Tableau to get a better understanding of the average type of customer that Rent the Runway has.
 
@@ -18,7 +18,7 @@ Then I decided to create different kinds of visualization in Tableau to get a be
 
 Next I decided to perform sentiment analysis on the reviews that customers left of the clothes to see how customers felt about Rent the Runway overall. What I found was that there was not really any one variable where people felt more negatively about the clothes than any others. I thought the variable where someone could select how well a product fit them would show that people who choose large or small would give more negative reviews but I did not find this to be the case.
 
-('sentiment_analysis.png')
+![Sentiment](sentiment_analysis.png)
 
 ### Creating the Recommender
 After assessing the data I downloaded about Rent the Runway, I looked to see what kind of data I had in order to understand the kind of recommender I could build. I was able to create an Item-Item recommender as well as a User-User recommender because I had a ratings variable, user-id variable and item-id variable.
